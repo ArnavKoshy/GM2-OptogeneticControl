@@ -1,1 +1,1 @@
-#### PLACE LIGHTING CAD HERE
+Description of lighting rig, instructions for manufacture
