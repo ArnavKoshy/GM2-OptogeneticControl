@@ -75,13 +75,13 @@ for key, values in data_processed.items():
         if 'nolight' not in key:
             color = key[-1]  # Extract the color from the key
             label = f'{color.upper()} dataset'
-            values_shift = np.roll(values, 0)# clockwise rotation by 7*15 = 105 degrees
+            values_shift = np.roll(values, 7)# clockwise rotation by 7*15 = 105 degrees
             angular = np.linspace(0, 360, len(values))
             ax.scatter(angular, values_shift, label=label, color=color)
             ax.plot(angular, values_shift, color=color)
 
 # Set the title and labels
-ax.set_title("Variation in Voltage with Angular Position")
+ax.set_title("Variation in Light Intensity with Angular Position")
 
 ax.set_xlabel("Angular Positions")
 ax.set_ylabel("Value")
