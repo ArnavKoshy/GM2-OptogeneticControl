@@ -1,20 +1,27 @@
-const int photodiodeCount = 8;
-const int photodiodePins[photodiodeCount] = {A0, A1, A2, A3, A4, A5, A6, A7};
+#define NUMBER_OF_MUX 3
+#define NUMBER_OF_CHANNELS 8
+
+// Assign the Arduino pins connected to the multiplexer
+int sPins[NUMBER_OF_MUX][3] = {{2, 3, 4}, {5, 6, 7}, {8, 9, 10}};
+int zPin[NUMBER_OF_MUX] = {A0, A1, A2};
 
 void setup() {
   Serial.begin(9600);
   while (!Serial) ;  // Wait for serial connection
-  
-  // Set photodiode pins as inputs
-  for (int i = 0; i < photodiodeCount; i++) {
-    pinMode(photodiodePins[i], INPUT);
+
+  // Set the select pins as outputs
+  for (int i = 0; i < NUMBER_OF_MUX; i++) {
+    for (int j = 0; j < 3; j++) {
+      pinMode(sPins[i][j], OUTPUT);
+    }
+    pinMode(zPin[i], INPUT);
   }
 }
 
 void loop() {
   // Wait for command from the computer to start data logging
   while (!Serial.available()) ;
-  Serial.println("Enter 's' to start logging data, and enter 'e' to stop logging.");
+  Serial.println("start");
 
   // Read the command from the computer
   char command = Serial.read();
@@ -22,80 +29,41 @@ void loop() {
   if (command == 's') {
     // Start data logging
     
-    // Prompt user to enter file name
-    Serial.println("Enter file name:");
-    while (!Serial.available()) ;
-    String fileName = Serial.readStringUntil('\n');
-    
-    // Prompt user to enter time
-    Serial.println("Enter time:");
-    while (!Serial.available()) ;
-    String time = Serial.readStringUntil('\n');
-    
-    // Prompt user to enter y-position
-    Serial.println("Enter y-position:");
-    while (!Serial.available()) ;
-    String yPosition = Serial.readStringUntil('\n');
-    
-    // Prompt user to enter angle rotations
-    Serial.println("Enter angle rotations:");
-    while (!Serial.available()) ;
-    String angleRotations = Serial.readStringUntil('\n');
-    
-    // Open the Serial connection for data logging
-    Serial.begin(9600);
-
     // Send acknowledgment to the computer
     Serial.println("start");
     
-    // Open the file on the computer for writing
-    Serial.print("Creating file: ");
-    Serial.println(fileName);
-    
-    
-    // Wait for a short delay
-    delay(1000);
-    
-    // Start logging the data to the computer
-    Serial.println("Data logging started...");
-    
-    // Open the Serial connection for data logging
-    Serial.begin(9600);
-    
-    // Log the additional information to the file
-    Serial.println("time");
-    Serial.println(time);
-    Serial.println("y-position");
-    Serial.println(yPosition);
-    Serial.println("angle rotations");
-    Serial.println(angleRotations);
-    
     // Log the data until receiving the stop command
     while (!Serial.available() || Serial.read() != 'e') {
-      // Read and log the photodiode values
-      for (int i = 0; i < photodiodeCount; i++) {
-        // Read the photodiode value
-        int photodiodeValue = analogRead(photodiodePins[i]);
-    
-        // Print the photodiode value to the Serial monitor
-        Serial.print("Photodiode ");
-        Serial.print(i);
-        Serial.print(" Value: ");
-        Serial.println(photodiodeValue);
-        
+      // Read and send the photodiode values
+      for (int i = 0; i < NUMBER_OF_MUX; i++) {
+        for (int j = 0; j < NUMBER_OF_CHANNELS; j++) {
+          // Set the select pins for the current channel
+          for (int k = 0; k < 3; k++) {
+            digitalWrite(sPins[i][k], bitRead(j, k));
+          }
+
+          // Read the photodiode value
+          int photodiodeValue = analogRead(zPin[i]);
+      
+          // Send the photodiode value to the computer
+          Serial.print("Photodiode ");
+          Serial.print((i * NUMBER_OF_CHANNELS) + j);
+          Serial.print(" Value: ");
+          Serial.println(photodiodeValue);
+        }
       }
       
-      // Delay before logging the next set of data
+      // Delay before sending the next set of data
       delay(100);
     }
     
     // Send acknowledgment to the computer
     Serial.println("stop");
     
-    // Close the Serial connection for data logging
-    Serial.end();
+    // Wait for the computer to acknowledge the stop command
+    while (!Serial.available()) ;
+    while (Serial.read() != 'stop') ;
     
-    // Log the completion message
+    // Log the completion message to the computer
     Serial.println("Data logging complete!");
-  }
-}
+ 
