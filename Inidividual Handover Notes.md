@@ -1,7 +1,8 @@
 ##### I think it's a good idea for everyone to put the links of handover notes they wrote/contributed here...
 
-Arnav:  
-[Modelling Handover](/Modelling/DiffuseSim/README.md)
+Arnav:
+- [Modelling Handover](/Modelling/DiffuseSim/README.md)
+- [Data Collection Handover] (/Testing Rig/DataCollection/README.md)
 
 Alban:  
 Jasmine:  
