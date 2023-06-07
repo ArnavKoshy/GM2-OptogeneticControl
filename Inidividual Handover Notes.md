@@ -2,7 +2,8 @@
 
 Arnav:
 - [Modelling Handover](/Modelling/DiffuseSim/README.md)
-- [Data Collection Handover]("/Testing Rig/DataCollection/README.md")
+- [Data Collection Handover](/Testing%20Rig/DataCollection/README.md)
+- [Modelling Handover](/Modelling/DiffuseSim/README.md)
 
 Alban:  
 Jasmine:  
