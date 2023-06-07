@@ -17,19 +17,17 @@ Arduino sends digital inputs at pin Dx to select multiplexer input, and reads fr
 Multiplexers:  
 Multiplexers are used for selecting signals between different photodiodes. Each multiplexer is connected to 8 photodiodes, and it receives input from Arduino's digital input to select the photodiodes' input to read from.
 
-### Implementing the circuit design
+### Ensemble notice
 #### Stripboard
 
-<img src="images/stripboard.jpg" alt="Image" style="max-width: 100%; height: auto;">
-
-
+For stripboard design, referrence to the schematic and [this picture](git01.jpg). After building the circuit, check if there's any short circuit to avoid damaging any component. Protect the weak connections using tape or glue gun.
 
 ##### PCB design
-For PCB design, referrence to the kiCAD project -- PCB, which should be self-explanatory. PCB is recommanded if you stick to the o
+For PCB design, referrence to the kiCAD project -- PCB, which should be self-explanatory.  
 
-##### Compatibility Notice:
-If the listed cannot be purchased, here are some suggestions for replacements...
-If any components are altered, remember to change the footprints in "" in kiCAD, however due to the poor compatibility of PCB, we recommand using stripboard to perform the design.
-
-
-##### 
+### Compatibility Notice:
+If the listed cannot be purchased, here are some suggestions for replacements:
+Arduino board:  
+Multiplexers:  
+Photodiodes:  
+If any components are altered, remember to change the footprints in kiCAD, however due to the poor compatibility of PCB, we recommand using stripboard to reproduce the design if you'd like to change any components, otherwising there may be mismatch when soldering.
