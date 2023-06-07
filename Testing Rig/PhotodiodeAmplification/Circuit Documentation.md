@@ -19,7 +19,9 @@ Multiplexers are used for selecting signals between different photodiodes. Each 
 
 ### Implementing the circuit design
 #### Stripboard
-![git01](https://github.com/ArnavKoshy/GM2-OptogeneticControl/assets/71087503/0fa82ac9-b2c0-477e-8fc9-ed57fae085e9)
+
+<img src="images/stripboard.jpg" alt="Image" style="max-width: 100%; height: auto;">
+
 
 
 ##### PCB design
