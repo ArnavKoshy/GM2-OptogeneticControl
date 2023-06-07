@@ -1,4 +1,4 @@
-### Circuit documentation
+# Circuit Documentation
 Author: Jasmine  
 Co-contributor: Arnav  
 
