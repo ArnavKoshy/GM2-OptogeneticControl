@@ -31,3 +31,16 @@ Arduino board:
 Multiplexers:  
 Photodiodes:  
 If any components are altered, remember to change the footprints in kiCAD, however due to the poor compatibility of PCB, we recommand using stripboard to reproduce the design if you'd like to change any components, otherwising there may be mismatch when soldering.
+
+things to include:  
+Testing and Results: Mention any testing procedures that were conducted on the circuit and provide a summary of the results. This can include performance measurements, signal quality assessments, or any issues encountered during testing.
+
+Operating Instructions: Provide instructions on how to operate the circuit, including any specific configurations or settings that need to be adjusted. Mention any safety precautions or considerations that should be taken while using the circuit.
+
+Troubleshooting Tips: Include a section on troubleshooting common issues that may arise while using the circuit. This can help the recipient of the handover note in identifying and resolving potential problems.
+
+Maintenance and Support: Provide information about the expected maintenance requirements of the circuit. This can include details on periodic checks, component replacements, or any specific procedures that should be followed for proper maintenance. Also, mention the contact information or resources available for further support or clarification.
+
+Future Enhancements: If there are any plans for future enhancements or improvements to the circuit, mention them briefly. This can help the recipient understand potential areas for further development or customization.
+
+Acknowledgments: Give credit to any additional contributors, collaborators, or sources of inspiration that played a role in the circuit design. Acknowledge their contributions and express gratitude for their assistance.
