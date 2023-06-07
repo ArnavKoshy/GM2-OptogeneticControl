@@ -42,7 +42,7 @@ The attenuation of light passing through the medium is modelled using the [Beer-
 
 The rays of light created by the source (shown in orange in the figure below) are assumed to pass through turbid fluid on the way to each point, attenuating with the Beer-Lambert Law.
 
-![Light attenuation](/images/attenuation.png)
+![Light attenuation](images/attenuation.png)
 
 The Beer-Lambert law only considers light travelling in a straight line, and does not consider the scattering of light due to the fluid, and this has to be taken into account separately.
 
