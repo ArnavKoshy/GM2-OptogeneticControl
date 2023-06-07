@@ -23,7 +23,6 @@ For an overview of how the model works, see [How it works](#how-it-works).
 ### Requirements:
     - Python 3.10 or later
     - Python pip
-    -  
     
 ### Instructions for setup
 
