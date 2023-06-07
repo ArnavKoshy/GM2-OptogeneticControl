@@ -35,7 +35,7 @@ In the design process of the final lighting rig, a few main requirements had to 
 
 The final design of the lighting rig is as shown in the image below. This can be viewed in the assembly file.
 
-![CAD file](images/CAD_design.jpg)
+<img src="images/CAD_design.png" alt="CAD design" height="350" />
 
 The rig uses a 6.35mm diameter rod to act as a pin for the hinge, with two halves that open to allow users to access the interior. Detailed information on the specifications can be found below in [CAD Files and Design Specifications](#cad-files-and-design-specifications).
 
@@ -45,8 +45,8 @@ The two halves of the rig have been designed to be secured by Velcro strips, wra
 ---
 
 The recommended LED arrangement would be as shown in the diagram below.
-  
-![lighting rig](images/lighting_rig.jpg)
+
+<img src="images/lighting_rig.png" alt="lighting rig" height="350" />
   
 Four LED strips were installed vertically with equal spacing in the interior of the rig. The reason for this design would be because there is approximately an equal intensity of light for an arc length of about 140 degrees opposite to where the light originates from. This is supported by data collected from our tests which can be found [here](https://github.com/ArnavKoshy/GM2-OptogeneticControl/tree/main/Testing%20Rig).
   
