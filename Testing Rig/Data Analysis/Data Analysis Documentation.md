@@ -15,7 +15,7 @@ For simplicity in ensembling, the apparatus we used in the testing have photodio
 The next step is to map sensor positions to angular position, As we have 24 photodiodes, after converting to angular position, we can get 24 samples with 15 degree interval.  
 
 ### Wavelength Sensitivity Calibration
-The photodiodes normally have a relative sensitivity curve showing its different sensitivity corresponding to different wavelength. For SFH 203 P, which we used in our design, the sensitivity curve is ![here]. If another type of photodiode is used, check the datasheet for its own sensitivity curve. The code we used simply divide the corresponding datasets with red, blue and green light by their sensitivity to calibrate their light intensity reading.
+The photodiodes normally have a relative sensitivity curve showing its different sensitivity corresponding to different wavelength. For SFH 203 P, which we used in our design, the sensitivity curve is ![here](https://github.com/ArnavKoshy/GM2-OptogeneticControl/blob/main/Testing%20Rig/Data%20Analysis/Relative sensitivity curve.jpg). If another type of photodiode is used, check the datasheet for its own sensitivity curve. The code we used simply divide the corresponding datasets with red, blue and green light by their sensitivity to calibrate their light intensity reading.
 
 ## Sample results
 ![light_intensity_sample.jpg](https://github.com/ArnavKoshy/GM2-OptogeneticControl/blob/main/Testing%20Rig/Data%20Analysis/light_intensity_sample_plot.png)
