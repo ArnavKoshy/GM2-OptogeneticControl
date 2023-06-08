@@ -25,3 +25,6 @@ Above is the prototype of our testing rig and lighting rig.
 
 The testing rig and model has satisfactory behaviour considering the time scale and resources we're given, and they demonstrated the feasibility of our model. However, there are several possible improvements listed above.  
 What's more, on the biology side of this project, it would be idea to have further data analysis and modelling relating the light intensity to the actual bacteria growth rate, which we cannot easily implement. Combining this to our current outcome will achieve more mature optogenetic control such as using PID control to boost the bacteria production even further.
+
+### Compatibility
+We're aware that in developing countries the availability of components can be quite limited. Also, depending on the type of bacteria there may be different setups. For example, the wavelength of LED may be changed in different scenario. Our electrical design documentation had taken this into account and gave suggestions for substituting components. However, the modelling also require modification in that case, which would be feasible by changing model parameters.
