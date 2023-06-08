@@ -1,5 +1,6 @@
 # The project and Sustainable Development Goals
 
+The project's impact can be assessed by considering how closely it aligns with the following UN [Sustainable Development Goals](https://www.globalgoals.org/goals/)
 
 ## Reduced inequalities
 ---
@@ -14,33 +15,31 @@ Enzymes are needed in the Global South, but can't be acquired sustainably to sat
 One solution that may be able to improve that problem is using Optogenetics.
 The principle is the following: by directing light at bacteria, there is a production of enzyme. This is of course wavelength and intensity dependant, but this solution is fairly simple to implement and promising.
 
+This allows better access to enzymes in the Global South, reducing access inequalities to products necessary for research towards other development goals.
 
 ## Resilient infrastructure - distributed production of enzymes
 ---
 Optogenetics is conducted in a structure that is called a bioreactor. The bioreactor is container ranging in volume from 500mL to a few dozens of litres.
 Once the bioreactor is acquired, and the lighting rig is setup, all there is to do is to put bacteria in the reactor and start the optogenetics process. 
 
-Bacteria are easily accessible even in Global South countries, which enables to have a resiliant enzyme supply chain.
+Bacteria are easily accessible even in Global South countries, which enables them to have a resiliant enzyme supply chain. Moving the production of enzymes to the place of use is beneficial in improving the resilience of supply chains to disruption and shortage, as well as reducing acquisition times.
 
 In terms of setup, the solution we came up with only uses an Arduino card, which can be run by any basic laptop, and LEDs which are easily found anywhere in the world. One step further from our project would be to design specifications that can take into account most LED specs and adapt the solution accordingly.
 
-## Sustainable economic growth - less reliant on imports
+
+
+## Sustainable economic growth
 ---
-Optogenetics allow Global South to not rely on enzyme or reagents import, and to produce enzymes locally.
+Optogenetics allow countries in the Global South to not rely on enzyme or reagents import, and to produce enzymes locally. This allows independent economic growth of research sectors of these countries, without depending on foreign imports. 
 
 Furthermore, the vast majority of the components needed to run our setup can be sourced locally.
-Bacteria can be found in any local labs in the world.
+
 An Arduino card, LED strips, 3D printed parts and any laptop are components that can be obtained very quickly and easily.
 
 This makes the enzyme production local and virtually independant from any imports.
 
-## Most importantly, allowing others to work towards SDGs
+## Partnership towards the goals.
 ---
-By enabling the production of enzymes to be higher and of better quality in underdeveloped areas, many problems are solved.
-Issues such as disease detection or water treatment can be resolved, and ensure a much better standard of living for inhabitants in these areas.
 
-In return, this promotes growth in general, whether it is health-wise or economy-wise.
-Creating a more stable platform for development enables Global South countries to have a more solid base, which will enable them to focus on Sustainable Development on the long term.
-
-Therefore, the optogenetics solution should be able to allow Third-World countries to work towards SDGs in the medium-term future.
-
+Enabling production of necessary enzymes in developing countries facilitates them to independently work towards other UN Sustainable Development Goals without relying on foreign supplies. 
+This, coupled with the reduced acquisition time for necessary enzymes, dramatically accelerates the pace of research and progress in developing countries. 
