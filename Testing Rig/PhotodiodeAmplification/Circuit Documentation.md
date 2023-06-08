@@ -32,14 +32,17 @@ If the listed cannot be purchased, here are some suggestions for replacements:
 Arduino board: 
 1. Arduino Uno
 2. Arduino Pro Mini
-3. ESP8266 NodeMCU
+3. ESP8266 NodeMCU  
+
 Photodiodes: 
 1. BPW34
 2. TEMT6000
-3. TSL2561
+3. TSL2561  
+
 Multiplexers:
 1. 74HC4051
-2. 74HC4067
+2. 74HC4067  
+
 If any components are altered, remember to change the footprints in kiCAD, however due to the poor compatibility of PCB, we recommand using stripboard to reproduce the design if you'd like to change any components, otherwising there may be mismatch when soldering.
 
 
