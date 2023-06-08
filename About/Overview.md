@@ -14,7 +14,7 @@ After data collection, we put the experimental data and analytic solution togeth
 
 <img width="395" alt="image" src="https://github.com/ArnavKoshy/GM2-OptogeneticControl/assets/71087503/70f4ca4f-ded8-41fa-a62a-b4670c044252">
 
-Above is the prototype of our testing rig and lighting rig. 
+Above is the prototype of our testing rig and lighting rig.  
 
 
 ## Results and Further improvements
