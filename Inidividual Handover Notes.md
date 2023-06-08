@@ -1,4 +1,4 @@
-##### I think it's a good idea for everyone to put the links of handover notes they wrote/contributed here...
+### Here's the links of handover notes that each of our group member wrote/contributed:
 
 Arnav:
 - [Modelling Handover](/Modelling/DiffuseSim/README.md)
