@@ -8,3 +8,5 @@ For information about the testing rig used to collect light intensity data aroun
 For information about our light distribution model, see [Modelling](Modelling/)
 
 For information about the final lighting rig design to light a bioreactor, see [Lighting Rig](Lighting%20Rig/)
+
+For Alexandre: A list of handover documentation we've each individually contributed to is available in [Individual handover notes](Individual Handover Notes.md)
