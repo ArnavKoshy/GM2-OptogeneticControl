@@ -19,5 +19,7 @@ Above is the prototype of our testing rig and lighting rig.
 
 ## Results and Further improvements
 <img width="594" alt="image" src="https://github.com/ArnavKoshy/GM2-OptogeneticControl/assets/71087503/5dc54220-e126-4d3c-a4dd-f26d841aab45">
+
+
 The testing rig and model has satisfactory behaviour considering the time scale and resources we're given, and they demonstrated the feasibility of our model. However, there are several possible improvements listed above.  
 What's more, on the biology side of this project, it would be idea to have further data analysis and modelling relating the light intensity to the actual bacteria growth rate, which we cannot easily implement. Combining this to our current outcome will achieve more mature optogenetic control such as using PID control to boost the bacteria production even further.
