@@ -16,7 +16,7 @@ The circuits included in the circuit design in hiecharchy order:
 ## Ensemble Notice
 ### Stripboard
 
-For stripboard design, referrence to the schematic. Here is a picture of the prototype we made: [Stripboard Prototype](git01.jpg). After building the circuit, check if there's any short circuit to avoid damaging any component. Protect the weak connections using tape or glue gun.
+For stripboard design, refer to the schematic. Here is a picture of the prototype we made: [Stripboard Prototype](git01.jpg). After building the circuit, check if there's any short circuit to avoid damaging any component. Protect the weak connections using tape or glue gun.
 
 #### PCB design
 For PCB design, refer to the kiCAD project -- PCB Editor, which should be self-explanatory.  
@@ -51,7 +51,10 @@ If any components are altered, remember to change the footprints in kiCAD, howev
 
 ## Our testing and results
 
-We've done a breadboard and a stripboard prototype. The breadboard testing functioned properly, but it seems it needs mounting to maintain the stability of positions of photodiodes. The stripboard passed the testing, but before data collection the arduino board malfunctioned and cannot function correctly.
+We've done a breadboard and a stripboard prototype. The breadboard testing functioned properly, but it seems it needs mounting to maintain the stability of positions of photodiodes, which will increase the accuracy and reliability of reading. The stripboard passed the testing, but before data collection the arduino board malfunctioned and cannot function correctly.
+
+<img width="417" alt="image" src="https://github.com/ArnavKoshy/GM2-OptogeneticControl/assets/71087503/013f3e22-e705-44b9-8cbe-1c4971d2b9c0">
+
 
 ## Future Enhancements
 
