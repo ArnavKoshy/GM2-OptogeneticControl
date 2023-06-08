@@ -5,18 +5,13 @@ Contributor: Arnav
 This circuit is designed in order to read signals from photodiodes. We use multiplexers to select signals, and transimpedance amplifiers to convert current signals to voltage signals.  
 ##### For purchasing the components, reference to the parts list in the repository: [Link to Another File](another-file.md)  
 
-## Fuction Explanation
+## Function Explanation
 The circuits included in the circuit design in hiecharchy order:
 1. Arduino Nano
 2. Transimpedance Amplifiers Circuits x 3
 3. 8-1 Multiplexer x 3
 4. Photodiodes x 24
 
-Explanation of functionality
-Arduino Nano:  
-Arduino sends digital inputs at pin Dx to select multiplexer input, and reads from .  
-Multiplexers:  
-Multiplexers are used for selecting signals between different photodiodes. Each multiplexer is connected to 8 photodiodes, and it receives input from Arduino's digital input to select the photodiodes' input to read from.
 
 ## Ensemble notice
 ### Stripboard
