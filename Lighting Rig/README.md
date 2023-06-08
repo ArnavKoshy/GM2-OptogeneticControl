@@ -75,7 +75,7 @@ For ease of modifying the size of the structure, both files have the following g
   
 - `DIAMETER`
 
-  Inner diameter of the structure. Remember to cater for the height of the LEDs to be installed, and any other equipment to be placed between the jar and the rig (e.g. water jackets). The diameter set in the design file is 140mm given a bioreactor diameter of approximately 125mm.
+  Inner diameter of the structure. Remember to cater for the height of the LEDs to be installed, and any other equipment to be placed between the jar and the rig (e.g. water jackets). The diameter set in the design file is 142mm given a bioreactor diameter of approximately 125.5mm.
 
 - `ROD_DIAMETER`
 
