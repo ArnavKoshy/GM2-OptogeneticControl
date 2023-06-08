@@ -1,4 +1,4 @@
-# Circuit Documentation
+# Circuit Design Documentation
 Author: Jasmine  
 Contributor: Arnav  
 
