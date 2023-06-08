@@ -4,6 +4,8 @@
 
 In many developing countries, the gaps in terms of research and equipment is significant. One example is the accessibility to reagents for enzyme is very limited, and this cause troubles in their research and development. One effective solution is to use optogenetic device to boost the production of bacteria. This will help scientists in the Global South greatly, so they no longer limit the creativity, ambition and impacts. **In this project, our group coorperate with Jenny Molloy to improve the optogenetic device.**
 
+<img width="350" alt="image" src="https://github.com/ArnavKoshy/GM2-OptogeneticControl/assets/71087503/137b9f05-121b-4fb2-870a-3a7d2c8b628c"> 
+
 ## Technical Summary
 
 <img width="350" alt="image" src="https://github.com/ArnavKoshy/GM2-OptogeneticControl/assets/71087503/ff8c2e23-a962-44b2-bfcb-e98c5cec0e04">  
