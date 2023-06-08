@@ -1,7 +1,7 @@
 # Circuit Design Documentation
 Author: Jasmine  
-Contributor: Arnav  
 
+This circuit documentation explains the design and implementation details of the circuit for photodiode amplification and data collection.
 This circuit is designed in order to read signals from photodiodes. We use multiplexers to select signals, and transimpedance amplifiers to convert current signals to voltage signals.  
 ##### For purchasing the components, reference to the parts list in the repository: [Parts List For Referrence](https://github.com/ArnavKoshy/GM2-OptogeneticControl/blob/main/Testing%20Rig/PhotodiodeAmplification/parts_list.xlsx)  
 
@@ -19,13 +19,16 @@ The circuits included in the circuit design in hiecharchy order:
 For stripboard design, referrence to the schematic. Here is a picture of the prototype we made: [Stripboard Prototype](git01.jpg). After building the circuit, check if there's any short circuit to avoid damaging any component. Protect the weak connections using tape or glue gun.
 
 #### PCB design
-For PCB design, referrence to the kiCAD project -- PCB, which should be self-explanatory.  
+For PCB design, refer to the kiCAD project -- PCB Editor, which should be self-explanatory.  
+
+<img width="504" alt="image" src="https://github.com/ArnavKoshy/GM2-OptogeneticControl/assets/71087503/b142b3ee-6c39-426d-84f2-729cc53f1998">  
+
 
 ### Troubleshooting
 Check the following aspects when the circuit don't work properly:
 1. Powering: Is the power enough to drive the circuit
 2. Short Circuits: Are there any bare wires in contact? Are the components soldered properly? 
-3. 
+3. Arduino: Is the Arduino functioning well without connects?
 
 ## Compatibility Notice:
 If the listed cannot be purchased, here are some suggestions for replacements:
