@@ -6,16 +6,16 @@ In many developing countries, the gaps in terms of research and equipment is sig
 
 ## Technical Summary
 
-<img width="486" alt="image" src="https://github.com/ArnavKoshy/GM2-OptogeneticControl/assets/71087503/ff8c2e23-a962-44b2-bfcb-e98c5cec0e04">  
+<img width="350" alt="image" src="https://github.com/ArnavKoshy/GM2-OptogeneticControl/assets/71087503/ff8c2e23-a962-44b2-bfcb-e98c5cec0e04">  
 
 Multiple optogenetics designs has already been built previously. However, one main problem with these designs is a lack of experimental data and quantitative analysis to help achieve more accurate monitor the optogenetics control.  
 To solve this problem, we built a testing rig that measures the light intensity circumferentially to collect experimental data. We also came up with a numerical model, which is implemented in python and effectively simulate the light transmission behaviour through any cylinderial container. 
 After data collection, we put the experimental data and analytic solution together and fit the parameters in the theoretical model, and evaluated its behaviour.
 
-<img width="435" alt="image" src="https://github.com/ArnavKoshy/GM2-OptogeneticControl/assets/71087503/57589961-238e-432e-9f85-0873cca0a990">
+<img width="395" alt="image" src="https://github.com/ArnavKoshy/GM2-OptogeneticControl/assets/71087503/70f4ca4f-ded8-41fa-a62a-b4670c044252">
 
 Above is the prototype of our testing rig and lighting rig. 
 
 
-## Our Results
+## Results
 
