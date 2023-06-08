@@ -1,25 +1,10 @@
 # GM2-OptogeneticControl
 A repository holding information and resources about the GM2 project about optogenetic control in bioreactors for enzyme synthesis
 
-Group report
-15 marks (group)
+For information about the project, what we've done and how it relates to UN Sustainable Development Goals, see [About](About/)
 
-• Web-page highlighting the general context and technical summary. (1-2 pages, including
-graphics/media).
+For information about the testing rig used to collect light intensity data around a bioreactor, see [Testing Rig](Testing%20Rig/)
 
-• Reflective discussion about the work’s alignment with the Sustainable Development Goals
-and where applicable with the UNICEF principles for Digital Development. (1-2 pages)
+For information about our light distribution model, see [Modelling](Modelling/)
 
-• Statement about project management, explain the team work strategy. Reflect on what
-worked and what didn’t work. (1-2 pages)
-
-ABOUT:
-
-About optogenetic control
-UN SDGs
-What we are doing
-
-Parts of the project:
-Modelling
-Testing
-Lighting
+For information about the final lighting rig design to light a bioreactor, see [Lighting Rig](Lighting%20Rig/)
