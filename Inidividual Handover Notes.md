@@ -11,6 +11,6 @@ Alban:
 
 Jasmine:  
 - [Electronics handover](https://github.com/ArnavKoshy/GM2-OptogeneticControl/blob/main/Testing%20Rig/PhotodiodeAmplification/Circuit%20Documentation.md)  
-- [Experimental Data Analysis Handover](https://github.com/ArnavKoshy/GM2-OptogeneticControl/tree/main/Testing%20Rig/Data%20Analysis)  
+- [Experimental Data Analysis Handover](https://github.com/ArnavKoshy/GM2-OptogeneticControl/blob/main/Testing%20Rig/Data%20Analysis/Data%20Analysis%20Documentation.md)  
 
 Tse En:  
