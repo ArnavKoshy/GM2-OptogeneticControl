@@ -2,7 +2,8 @@
 Author: Jasmine
 
 This is a brief guide that will explain the process and testing result of data analysis. It is based on the circuit design and datalogging program that is explained detailedly in the other files in Testing Rig folder.  
-After data logging, you should have .csv files loading all the data you have. Here are the steps needed to calibrate the raw data to something we can use directly to build empirical formulars of the model, or for other purpurses:
+After data logging, you should have .csv files loading all the data you have. Here are the steps needed to calibrate the raw data to something we can use directly to build empirical formulars of the model, or for other purpurses:  
+
 1. Zero Reading Calibration
 2. Position Calibration
 3. Wavelength  Sensitivity Calibration
