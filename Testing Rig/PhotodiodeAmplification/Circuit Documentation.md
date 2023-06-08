@@ -48,8 +48,10 @@ If any components are altered, remember to change the footprints in kiCAD, howev
 
 ## Our testing and results
 
-We've done a breadboard and a stripboard prototype. The breadboard testing works properly, but it seems
+We've done a breadboard and a stripboard prototype. The breadboard testing functioned properly, but it seems it needs mounting to maintain the stability of positions of photodiodes. The stripboard passed the testing, but before data collection the arduino board malfunctioned and cannot function correctly.
 
 ## Future Enhancements
 
-After testing, we find out the amplification factor for the circuit can be increased further to achieve better signal-to-noise ratio. Instead of the resistor that we use, consider using a resistor of larger value. The capacitor value should be adjusted as well to maintain same level of filtering.
+After testing, we find out the amplification factor for the circuit can be increased further to achieve better signal-to-noise ratio. It might be helpful to use a gain resistor of larger value. The capacitor value should be adjusted as well to maintain same level of filtering.  
+For powering circuits with larger power than our prototype, we may need voltage regulation to maintain the voltage supply.
+
