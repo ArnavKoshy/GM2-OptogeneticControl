@@ -1,4 +1,4 @@
-# Guide to Data Analysis
+# Guide to Experimental Data Analysis
 Author: Jasmine
 
 This is a brief guide that will explain the process and testing result of data analysis. It is based on the circuit design and datalogging program that is explained detailedly in the other files in Testing Rig folder.  
