@@ -44,15 +44,14 @@ void loop() {
 
           // Read the photodiode value
           int photodiodeValue = analogRead(zPin[i]);
-      
-          // Send the photodiode value to the computer
-          Serial.print("Photodiode ");
-          Serial.print((i * NUMBER_OF_CHANNELS) + j);
-          Serial.print(" Value: ");
-          Serial.println(photodiodeValue);
+          Serial.print(photodiodeValue);
+          
+          if(i == NUMBER_OF_MUX -1 && j == NUMBER_OF_CHANNELS -1){
+          }else{
+            Serial.print(",");
         }
       }
-      
+      Serial.println();
       // Delay before sending the next set of data
       delay(100);
     }
