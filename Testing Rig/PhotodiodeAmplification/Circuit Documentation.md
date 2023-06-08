@@ -1,11 +1,11 @@
 # Circuit Documentation
 Author: Jasmine  
-Co-contributor: Arnav  
+Contributor: Arnav  
 
 This circuit is designed in order to read signals from photodiodes. We use multiplexers to select signals, and transimpedance amplifiers to convert current signals to voltage signals.  
 ##### For purchasing the components, reference to the parts list in the repository: [Link to Another File](another-file.md)  
 
-### Fuction Explanation
+## Fuction Explanation
 The circuits included in the circuit design in hiecharchy order:
 1. Arduino Nano
 2. Transimpedance Amplifiers Circuits x 3
@@ -18,21 +18,21 @@ Arduino sends digital inputs at pin Dx to select multiplexer input, and reads fr
 Multiplexers:  
 Multiplexers are used for selecting signals between different photodiodes. Each multiplexer is connected to 8 photodiodes, and it receives input from Arduino's digital input to select the photodiodes' input to read from.
 
-### Ensemble notice
-#### Stripboard
+## Ensemble notice
+### Stripboard
 
 For stripboard design, referrence to the schematic. Here is a picture of the prototype we made: [Stripboard Prototype](git01.jpg). After building the circuit, check if there's any short circuit to avoid damaging any component. Protect the weak connections using tape or glue gun.
 
-##### PCB design
+#### PCB design
 For PCB design, referrence to the kiCAD project -- PCB, which should be self-explanatory.  
 
-#### Safety and debugging instructions:
+### Safety and debugging instructions:
 1. After building the circuit, check if there's any short circuit using voltmeter to avoid damaging any component. 
 2. Protect the weak connections using tape or glue gun.
 3. Common malfunctionality with the circuit:
-#### Troubleshooting
+### Troubleshooting
 
-### Compatibility Notice:
+## Compatibility Notice:
 If the listed cannot be purchased, here are some suggestions for replacements:
 Arduino board:  
 Multiplexers:  
@@ -40,9 +40,9 @@ Photodiodes:
 If any components are altered, remember to change the footprints in kiCAD, however due to the poor compatibility of PCB, we recommand using stripboard to reproduce the design if you'd like to change any components, otherwising there may be mismatch when soldering.
 
 
-### Our testing and results
+## Our testing and results
 Testing and Results: Mention any testing procedures that were conducted on the circuit and provide a summary of the result. This can include performance measurements, signal quality assessments, or any issues encountered during testing.
-### Future Enhancements
+## Future Enhancements
 
 
 Operating Instructions: Provide instructions on how to operate the circuit, including any specific configurations or settings that need to be adjusted. Mention any safety precautions or considerations that should be taken while using the circuit.
