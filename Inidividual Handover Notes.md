@@ -3,6 +3,7 @@
 Arnav:
 - [Modelling Handover](/Modelling/DiffuseSim/README.md)
 - [Data Collection Handover](/Testing%20Rig/DataCollection/README.md)
+- [Circuit Design and Simulation Notes](/Testing%20Rig/PhotodiodeAmplification/Simulation/README.md)
 
 Alban:  
 Jasmine:  
