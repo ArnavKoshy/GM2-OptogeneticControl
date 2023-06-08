@@ -16,9 +16,15 @@ For simplicity in ensembling, the apparatus we used in the testing have photodio
 The next step is to map sensor positions to angular position. As we have 24 photodiodes, after converting to angular position, we can get 24 samples with 15 degree interval.   
 
 ### Wavelength Sensitivity Calibration
-The photodiodes normally have a relative sensitivity curve showing its different sensitivity corresponding to different wavelength. For SFH 203 P, which we used in our design, the sensitivity curve is shown below. ![here](https://github.com/ArnavKoshy/GM2-OptogeneticControl/blob/main/Testing%20Rig/Data%20Analysis/Relative%20sensitivity%20curve.png) If another type of photodiode is used, check the datasheet for its own sensitivity curve. It's also recommonded to **check the datasheet of the LED light source used for accurate wavelength**. The code we used simply divide the corresponding datasets with red, blue and green light by their sensitivity to calibrate their light intensity reading.
+The photodiodes normally have a relative sensitivity curve showing its different sensitivity corresponding to different wavelength. For SFH 203 P, which we used in our design, the sensitivity curve is shown below. 
+
+<img width="500" alt="image" src="https://github.com/ArnavKoshy/GM2-OptogeneticControl/blob/main/Testing%20Rig/Data%20Analysis/Relative%20sensitivity%20curve.png">   
+
+ If another other types of photodiode is used, check the datasheet for its own sensitivity curve. It's also recommonded to **check the datasheet of the LED light source used for accurate wavelength**. The code we used simply divide the corresponding datasets with red, blue and green light by their sensitivity to calibrate their light intensity reading.
 
 ## Sample results
-![light_intensity_sample.jpg](https://github.com/ArnavKoshy/GM2-OptogeneticControl/blob/main/Testing%20Rig/Data%20Analysis/light_intensity_sample_plot.png)
+
+<img width="450" alt="image" src="https://github.com/ArnavKoshy/GM2-OptogeneticControl/blob/main/Testing%20Rig/Data%20Analysis/light_intensity_sample_plot.png">    
+
 This is a sample result that we collected with 8 photodiodes rotated twice to get all the readings in the circumference. 
 The result shows that red light has the highest intensity among the three colours, and blue light has lowest intensity. This is due to the fact that the we used yellow solution in testing, which mainly absorbs blue light. After getting this curve, we can compare it with the numerical model. Referrence to [Alban's writing for this in detail.](https://github.com/ArnavKoshy/GM2-OptogeneticControl/blob/main/Testing%20Rig/Data%20Analysis/README.md)
