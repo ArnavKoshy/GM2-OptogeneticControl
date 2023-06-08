@@ -8,5 +8,5 @@ Arnav:
 Alban:  
 Jasmine:  
 - [Electronics handover](https://github.com/ArnavKoshy/GM2-OptogeneticControl/blob/main/Testing%20Rig/PhotodiodeAmplification/Circuit%20Documentation.md)  
-- [Data Analysis Handover](https://github.com/ArnavKoshy/GM2-OptogeneticControl/tree/main/Testing%20Rig/Data%20Analysis)
+- [Data Analysis Handover](https://github.com/ArnavKoshy/GM2-OptogeneticControl/tree/main/Testing%20Rig/Data%20Analysis)  
 Tse En:  
